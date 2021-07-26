@@ -36,7 +36,7 @@ client.init("deda8a5a969649128272a987778380f9", function() {
 });
 
 // Join a channel
-client.join("006deda8a5a969649128272a987778380f9IAAstK4Rgs8ElA08kd/qzs9uR5P/pnQlyrKcNLzRNaEtPcc3xXoAAAAAEAA7+TVQdyH9YAEAAQB2If1g", "VIDEO CALL", null, (uid)=>{
+client.join("006deda8a5a969649128272a987778380f9IAA3wuUtkBwsxr8xWQCKWNah7OiFswiNMXcm4cpdqcvB7cc3xXoAAAAAEAD7XOPUBN//YAEAAQAC3/9g", "VIDEO CALL", null, (uid)=>{
     // Create a local stream
     let localStream = AgoraRTC.createStream({
         audio: true,
